@@ -1,0 +1,10 @@
+
+Chrome
+/Users/kylechien/Library/Application Support/Google/Chrome/Profile 2
+
+Arc
+/Users/kylechien/Library/Application Support/Arc/User Data/Default
+
+rm -rf "/Users/kylechien/Library/Application Support/Google/Chrome/Profile 2"
+cp -r "/Users/kylechien/Library/Application Support/Arc/User Data/Default" "/Users/kylechien/Library/Application Support/Google/Chrome/Profile 2"
+
